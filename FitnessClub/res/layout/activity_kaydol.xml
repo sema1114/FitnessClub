@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_background"
+     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/kayit"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                 >
+                <EditText
+                    android:id="@+id/edtKullaniciAd"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="4dp"
+                    android:ems="10"
+                    android:hint="@string/kullaniciad"
+                    android:maxLength="11" />
+
+                <EditText
+                    android:id="@+id/edtAd"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="4dp"
+                    android:ems="10"
+                    android:hint="@string/ad" />
+
+                <EditText
+                    android:id="@+id/edtSoyad"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="4dp"
+                    android:ems="10"
+                    android:hint="@string/soyad" />
+ 				<LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Spinner
+                        android:id="@+id/spinnerCinsiyet"
+                        android:layout_width="131dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:ems="10" />
+                </LinearLayout>
+                
+                <EditText
+                    android:id="@+id/edtSifre"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="4dp"
+                    android:ems="10"
+                    android:hint="@string/sifre"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/edtSifreTekrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="4dp"
+                    android:ems="10"
+                    android:hint="@string/tsifre"
+                    android:inputType="textPassword" />
+                <EditText
+                    android:id="@+id/edtDogumTarihi"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="4dp"
+                    android:ems="10"
+                    android:hint="@string/dogumyili"
+                    android:inputType="number"
+                    android:maxLength="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    android:alpha="1"
+                    android:ems="10"
+                    android:onClick="btnKaydol"
+                    android:text="@string/kayitol" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

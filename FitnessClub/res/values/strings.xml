@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fitness Club</string>
+    <string name="action_settings">Ayarlar</string>
+    <string-array name="menu">
+        <item>Anasayfa</item>
+        <item>Konumum</item>
+        <item>Sağlık Bilgilerim</item>
+        <item>İstatistiklerim</item>
+        <item>Keşfet</item>
+        <item>Öneriler</item>
+        <item>Oturumu Kapat</item>
+    </string-array>
+
+    <string name="drawer_open">Drawer Açıldı</string>
+    <string name="drawer_close">Drawer Kapandı</string>
+
+    <color name="actrenk">#00AE9F</color>
+    <!-- 3A437A -->
+    <!-- layout_hedeflerfragment.xml -->
+    <string name="deneme">Vücut Kitle İndeksi</string>
+    <string name="boy">Boyunuz(m)</string>
+    <string name="kilo">Kilonuz(kg)</string>
+    <string name="buton">Hesapla ve Kaydet</string>
+
+    <!-- activity_kaydol.xml -->
+    <string name="kayit">Fitness Club Kullanıcı Kayıt Ekranı</string>
+    <string name="kullaniciad">Kullanıcı adınız</string>
+    <string name="ad">Adınız</string>
+    <string name="soyad">Soyadınız</string>
+    <string name="sifre">Şifreniz</string>
+    <string name="tsifre">Sifrenizi Tekrar Giriniz</string>
+    <string name="dogumyili">Doğum yılınız</string>
+    <string name="kayitol">Kayıt ol</string>
+
+    <!-- activity_login.xml -->
+    <string name="baslik">FITNESS CLUB</string>
+    <string name="giris">Giriş Yap</string>
+
+    <!-- layout_anasayfafragment.xml -->
+    <string name="hosgeldiniz">Hoşgeldin,</string>
+    <string name="hesap">Günlük kalori hesabı:</string>
+    <string name="step_counter">android.hardware.sensor.stepcounter</string>
+    <string name="step_detector">android.hardware.sensor.stepdetector</string>
+    <!-- Arkadaşlar xml leri -->
+    <string-array name="adi_array">
+        <item>Tuğba ÇIRDAKLI</item>
+        <item>Sema BAYRİ</item>
+        <item>Batuhan GÜNAYDIN</item>
+        <item>Kübra İNCE</item>
+    </string-array>
+    <string-array name="adimsayisi_array">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </string-array>
+    <string-array name="kalori_array">
+        <item>14.125</item>
+        <item>5644</item>
+        <item>1472</item>
+        <item>1152</item>
+    </string-array>
+    <string-array name="tarih_array">
+        <item>13.01.2017</item>
+        <item>13.01.2017</item>
+        <item>13.01.2017</item>
+        <item>13.01.2017</item>
+    </string-array>
+    <string-array name="icon_arrayy">
+        <item>@drawable/tugba</item>
+        <item>@drawable/sema</item>
+        <item>@drawable/batuhan</item>
+        <item>@drawable/kubra</item>
+    </string-array>
+
+</resources>

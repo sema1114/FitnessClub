@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee" >
+
+    <TextView
+        android:id="@+id/adi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_toLeftOf="@+id/tvdate"
+        android:layout_toRightOf="@+id/kisi_icon"
+        android:maxLines="1"
+        android:text="Kullanıcı :"
+        android:textColor="@android:color/black"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/kisi_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="#444"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/kisi_icon"
+        android:layout_marginBottom="0dp"
+        android:layout_toRightOf="@+id/kisi_icon"
+        android:text="Tarih :"
+        android:textColor="@android:color/black"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/adimsayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kalori"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="Adım Sayısı"
+        android:textColor="@android:color/black"
+        android:textSize="13dip" />
+
+    <TextView
+        android:id="@+id/kalori"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tarih"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:maxLines="3"
+        android:text="Kalori :"
+        android:textColor="@android:color/black"
+        android:textSize="13dip" />
+
+</RelativeLayout>
